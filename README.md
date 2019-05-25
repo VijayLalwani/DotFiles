@@ -1,6 +1,6 @@
 # dotfiles
 
-![picture](wallpaper15.png)
+![picture](ScreenShots/ss1.png)
 
 [Full screenshots gallery](http://imgur.com/a/KzJZn)
 
