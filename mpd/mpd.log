@@ -1,0 +1,30 @@
+May 19 22:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 19 22:22 : client: [0] opened from 127.0.0.1:43400
+May 19 22:23 : client: [0] closed
+May 19 22:31 : client: [1] opened from 127.0.0.1:44344
+May 19 22:31 : client: [1] closed
+May 19 22:33 : client: [2] opened from 127.0.0.1:44430
+May 19 22:34 : client: [2] closed
+May 19 22:34 : client: [3] opened from 127.0.0.1:44434
+May 19 22:35 : client: [3] closed
+May 19 22:35 : client: [4] opened from 127.0.0.1:44436
+May 19 22:37 : client: [5] opened from 127.0.0.1:44440
+May 19 22:37 : client: [5] closed
+May 19 22:38 : client: [4] closed
+May 22 17:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 17:38 : client: [0] opened from 127.0.0.1:41790
+May 22 17:39 : client: [0] closed
+May 22 17:39 : client: [1] opened from 127.0.0.1:41884
+May 22 17:52 : client: [1] closed
+May 25 00:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 25 00:51 : client: [0] opened from 127.0.0.1:46360
+May 25 01:01 : client: [0] closed
+May 25 01:01 : client: [1] opened from 127.0.0.1:47652
+May 25 01:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 25 01:04 : avahi: Service 'Music Player @ Ghost' successfully established.
+May 25 01:05 : client: [0] opened from 127.0.0.1:34136
+May 25 01:08 : client: [0] closed
+May 25 01:10 : client: [1] opened from 127.0.0.1:34766
+May 25 01:10 : client: [1] closed
+May 25 01:12 : client: [2] opened from 127.0.0.1:35036
+May 25 01:19 : client: [2] closed

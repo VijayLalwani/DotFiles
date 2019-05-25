@@ -1,0 +1,238 @@
+Xft.dpi:       96
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background:        #FFFFFF
+XTerm*foreground:        #d8d8d8
+XTerm*pointerColor:      #1ABB9B
+XTerm*faceName:          Fixed
+XTerm*faceSize:          11
+XTerm*reverseVideo:      on
+XTerm*selectToClipboard: true
+
+*background:                      #FFFFFF
+*foreground:                      #d8d8d8
+*fading:                          8
+*fadeColor:                       black
+*cursorColor:                     #1ABB9B
+*pointerColorBackground:          #2B2C2B
+*pointerColorForeground:          #16A085
+
+!! black dark/light
+*color0:                          #222D31
+*color8:                          #585858
+
+!! red dark/light
+*color1:                          #ab4642
+*color9:                          #ab4642
+
+!! green dark/light
+*color2:                          #7E807E
+*color10:                         #8D8F8D
+
+!! yellow dark/light
+*color3:                          #f7ca88
+*color11:                         #f7ca88
+
+!! blue dark/light
+*color4:                          #7cafc2
+*color12:                         #7cafc2
+
+!! magenta dark/light
+*color5:                          #ba8baf
+*color13:                         #ba8baf
+
+!! cyan dark/light
+*color6:                          #1ABB9B
+*color14:                         #1ABB9B
+
+!! white dark/light
+*color7:                          #d8d8d8
+*color15:                         #f8f8f8
+
+Xcursor.theme: Bibata_Oil
+Xcursor.size:                     0
+
+urxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
+
+! alternative font settings with 'terminus':
+! urxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+! urxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+!! terminus names see end of file!
+
+urxvt.depth:                      32
+! urxvt.background:                 [100]#FFFFFF
+urxvt*scrollBar:                  false
+urxvt*mouseWheelScrollPage:       false
+urxvt*cursorBlink:                true
+urxvt*background:                 rgba:0000/0000/0200/c800
+urxvt*foreground:                 grey
+urxvt*saveLines:                  5000
+
+1 for 'fake' transparency (without Compton) uncomment the following three lines
+! urxvt*inheritPixmap:            true
+! urxvt*transparent:              true
+! urxvt*shading:                  138
+ urxvt.tintColor: 		 #000000
+ urxvt.blurRadius: 		 90
+
+! Normal copy-paste keybindings without perls
+urxvt.iso14755:                   false
+urxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+urxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+!Xterm escape codes, word by word movement
+urxvt.keysym.Control-Left:        \033[1;5D
+urxvt.keysym.Shift-Control-Left:  \033[1;6D
+urxvt.keysym.Control-Right:       \033[1;5C
+urxvt.keysym.Shift-Control-Right: \033[1;6C
+urxvt.keysym.Control-Up:          \033[1;5A
+urxvt.keysym.Shift-Control-Up:    \033[1;6A
+urxvt.keysym.Control-Down:        \033[1;5B
+urxvt.keysym.Shift-Control-Down:  \033[1;6B
+! Rxvt.perl-ext-common:             ...,clipboard
+! urxvt.keysym.M-C-c:               perl:clipboard:copy
+! urxvt.keysym.M-v:                 perl:clipboard:paste
+! urxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
+! urxvt*termName:                   string
+! urxvt*geometry:                   geometry
+! urxvt*chdir:                      string
+! urxvt*loginShell:                 boolean
+! urxvt*multiClickTime:             number
+! urxvt*jumpScroll:                 boolean
+! urxvt*skipScroll:                 boolean
+! urxvt*pastableTabs:               boolean
+! urxvt*scrollstyle:                plain
+! urxvt*scrollBar_right:            boolean
+! urxvt*scrollBar_floating:         true
+! urxvt*scrollBar_align:            mode
+! urxvt*thickness:                  number
+! urxvt*scrollTtyOutput:            boolean
+! urxvt*scrollTtyKeypress:          boolean
+! urxvt*scrollWithBuffer:           boolean
+! urxvt*tintColor:                  !7DA55
+! urxvt*blurRadius:                 HxV
+! urxvt*fading:                     number
+! urxvt*fadeColor:                  color
+! urxvt*utmpInhibit:                boolean
+! urxvt*urgentOnBell:               boolean
+! urxvt*visualBell:                 boolean
+! urxvt*mapAlert:                   boolean
+! urxvt*meta8:                      boolean
+! urxvt*tripleclickwords:           boolean
+! urxvt*insecure:                   boolean
+! urxvt*cursorUnderline:            boolean
+! urxvt*pointerBlank:               boolean
+! urxvt*color0:                     color
+! urxvt*color1:                     color
+! urxvt*color2:                     color
+! urxvt*color3:                     color
+! urxvt*color4:                     color
+! urxvt*color5:                     color
+! urxvt*color6:                     color
+! urxvt*color7:                     color
+! urxvt*color8:                     color
+! urxvt*color9:                     color
+! urxvt*color10:                    color
+! urxvt*color11:                    color
+! urxvt*color12:                    color
+! urxvt*color13:                    color
+! urxvt*color14:                    color
+! urxvt*color15:                    color
+! urxvt*colorBD:                    color
+! urxvt*colorIT:                    color
+! urxvt*colorUL:                    color
+! urxvt*colorRV:                    color
+! urxvt*underlineColor:             color
+! urxvt*scrollColor:                color
+! urxvt*troughColor:                color
+! urxvt*highlightColor:             color
+! urxvt*highlightTextColor:         color
+! urxvt*cursorColor:                color
+! urxvt*cursorColor2:               color
+! urxvt*pointerColor:               color
+! urxvt*pointerColor2:              color
+! urxvt*borderColor:                color
+! urxvt*iconFile:                   file
+! urxvt*font:                       fontname
+! urxvt*boldFont:                   fontname
+! urxvt*italicFont:                 fontname
+! urxvt*boldItalicFont:             fontname
+! urxvt*intensityStyles:            boolean
+! urxvt*inputMethod:                name
+! urxvt*preeditType:                style
+! urxvt*imLocale:                   string
+! urxvt*imFont:                     fontname
+! urxvt*title:                      string
+! urxvt*iconName:                   string
+! urxvt*buffered:                   boolean
+! urxvt*depth:                      number
+! urxvt*visual:                     number
+! urxvt*transient-for:              windowid
+! urxvt*override-redirect:          boolean
+! urxvt*hold:                       boolean
+! urxvt*externalBorder:             number
+! urxvt*internalBorder:             number
+! urxvt*borderLess:                 true
+! urxvt*lineSpace:                  number
+! urxvt*letterSpace:                number
+! urxvt*skipBuiltinGlyphs:          boolean
+! urxvt*pointerBlankDelay:          number
+! urxvt*backspacekey:               string
+! urxvt*deletekey:                  string
+! urxvt*print-pipe:                 string
+! urxvt*modifier:                   modifier
+! urxvt*cutchars:                   string
+! urxvt*answerbackString:           string
+! urxvt*secondaryScreen:            boolean
+! urxvt*secondaryScroll:            boolean
+! urxvt*perl-lib:                   string
+! urxvt*perl-eval:                  perl-eval
+! urxvt*perl-ext-common:            string
+! urxvt*perl-ext:                   string
+! urxvt*iso14755:                   boolean
+! urxvt*iso14755_52:                boolean
+! urxvt*xrm:                        string
+! urxvt*keysym.sym:                 keysym
+! urxvt*background.border:          boolean
+! urxvt*background.expr:            string
+! urxvt*background.interval:        seconds
+! urxvt*bell-command:               string
+! urxvt*kuake.hotkey:               string
+! urxvt*matcher.button:             string
+! urxvt*matcher.launcher:           string
+! urxvt*matcher.launcher.*:         string
+! urxvt*matcher.pattern.*:          string
+! urxvt*matcher.rend.*:             string
+! urxvt*remote-clipboard.fetch:     string
+! urxvt*remote-clipboard.store:     string
+! urxvt*searchable-scrollback:      string
+! urxvt*selection-autotransform.*:  string
+! urxvt*selection-pastebin.cmd:     string
+! urxvt*selection-pastebin.url:     string
+! urxvt*selection.pattern-0:        string
+! urxvt*tab-bg:                     colour
+! urxvt*tab-fg:                     colour
+! urxvt*tabbar-bg:                  colour
+! urxvt*tabbar-fg:                  colour
+! urxvt*url-launcher:               string
+
+! The Terminus font uses the following X-names:
+! -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
+! -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+! -xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso10646-1
+! -xos4-terminus-medium-r-normal--22-220-72-72-c-110-iso10646-1
+! -xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso10646-1
+! -xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso10646-1
+! -xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+! -xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso10646-1
+! -xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso10646-1
+! -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
+! -xos4-terminus-bold-r-normal--20-200-72-72-c-100-iso10646-1
+! -xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso10646-1
+! -xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso10646-1
+! -xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso10646-1
