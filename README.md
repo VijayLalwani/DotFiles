@@ -9,6 +9,8 @@
 # GTK Theme
 ![picture](ScreenShots/ss3.png)
 
+The transparency is from FlashFocus. its temporary, just to draw attention to which window is in focus before you start typing.
+
 # Launcher (rofi)
 ![picture](ScreenShots/ss4.png)
 
