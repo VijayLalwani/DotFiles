@@ -13,8 +13,8 @@ The transparency is from FlashFocus. its temporary, just to draw attention to wh
 # Launcher (rofi)
 ![picture](ScreenShots/ss4.png)
 
-# Custom wifi menu for polybar
+# Custom power menu for polybar
 ![picture](ScreenShots/ss5.png)
 
-# Custom power menu for polybar
+# Custom wifi menu for polybar
 ![picture](ScreenShots/ss6.png)
